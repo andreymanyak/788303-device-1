@@ -28,10 +28,14 @@ a {
 	text-decoration: none;
 }
 
+.main-header { 
+	margin-bottom: 75px;
+	background-color: blue;
+ }
 .main-navigation {
 
 }
-.main-header-logo{
+.main-header-logo {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 48px;
 	line-height: 48px;
