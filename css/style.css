@@ -200,6 +200,7 @@ a {
 .catalog-list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -207,7 +208,7 @@ a {
 .catalog-item {
 	width: 360px;
 	margin-bottom: 20px;
-	margin-right: 40px;
+	/*margin-right: 40px;*/
 }
 
 .product-groups-list {
