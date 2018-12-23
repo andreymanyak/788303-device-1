@@ -91,6 +91,16 @@ a {
 	margin-right: 200px;
 	margin-left: auto;
 }
+.profile-link {
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.logout-link {
+	margin-right: 60px;
+
+}
+
 .compare {
 	margin-right: 41px;
 }
@@ -297,10 +307,9 @@ a {
 	margin-left: 25px; 
 }
 
-.main-footer{
+.footer-wrapper{
 	background-color: #464646;
-	width: 1160px;
-	margin: 100px auto;
+	margin: 100px auto 0 auto;
 }
 .footer-user-navigation a{
 	color: #ffffff;
@@ -328,11 +337,11 @@ a {
 }
 
 .footer-wrapper-1 {
-	padding: 0 20px;
+	padding: 0 140px;
 }
 .footer-wrapper-2 p{
 	color: #ffffff;
-	padding: 0 20px;
+	padding: 0 140px;
 }
 
 .main-footer-logo{
@@ -373,12 +382,15 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 140px;
 }
 
 .social-list{
 	display: flex;
 	justify-content: space-between;
 	width: 160px;
+	padding: 0;
+	margin: 0;
 	margin-left: 520px;
 	
 }
@@ -391,7 +403,7 @@ a {
 	list-style: none;
 }
 .htmlacademy-logo {
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 }
 fieldset {
 	border: none;
