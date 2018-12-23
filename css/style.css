@@ -132,7 +132,7 @@ a {
 	padding-right: 60px;
 }
 
-.catalog {
+.catalog-goods {
 	margin-right: 320px;
 
 }
@@ -158,6 +158,8 @@ a {
 }
 .catalog-navigation,
 .breadcrumbs {
+	display: flex;
+	justify-content: flex-start;
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-size: 15px;
 	line-height: 30px;
@@ -166,7 +168,48 @@ a {
 	background-color: #ffffff;
 	list-style: none;
 	text-transform: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 55px;
+	/*временно для разметки*/
+	min-height: 24px;
 }
+.page-title {
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
+	/*временно для сетки*/
+	min-height: 48px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.filters {
+	width: 330px;
+	/*временно для сетки*/
+	min-height: 800px;
+}
+
+.catalog {
+	width: 760px;
+	/*временно для сетки*/
+	min-height: 1000px;
+}
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.catalog-item {
+	width: 360px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+}
+
 .product-groups-list {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
@@ -331,7 +374,7 @@ a {
 .footer-wrapper-1,
 .footer-wrapper-2 {
 	display: flex;
-	background-color: #464646;
+	/*background-color: #464646;*/
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
@@ -341,12 +384,9 @@ a {
 	
 }
 
-.footer-wrapper-1 {
-	padding: 0 140px;
-}
 .footer-wrapper-2 p{
 	color: #ffffff;
-	padding: 0 140px;
+	
 }
 
 .main-footer-logo{
@@ -387,7 +427,6 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 140px;
 }
 
 .social-list{
