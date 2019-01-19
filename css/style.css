@@ -56,10 +56,7 @@ img {
 	padding: 0 10px;
 }
 
-.main-header { 
-	margin-bottom: 75px;
-	
- }
+
 .main-navigation {
 	display: flex;
 	flex-wrap: wrap;
@@ -67,11 +64,12 @@ img {
 	align-items: center;
 	width: 1160px;
 	margin: 0 auto;	
-	margin-bottom: 50px;
+	margin-bottom: -110px;
 	min-height: 70px;
 	background-color: #f7e296;
 	margin-top: 41px;
-	padding-top: 53px;
+	padding-top: 33px;
+	padding-bottom: 163px;
 	position: relative;
 
 
@@ -79,13 +77,14 @@ img {
 .main-header-logo {
 	position: absolute;
 	top: -24px;
-	left: 60px;
+	left: 58px;
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 48px;
 	line-height: 48px;
 	font-weight: 800;
 	color: #000000;
 	text-transform: uppercase;
+	letter-spacing: 0.48px;
 }
 .main-header-logo:hover {
 	opacity: 0.6;
@@ -97,6 +96,7 @@ img {
 	opacity: 0.6;
 }
 .user-navigation {
+	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 15px;
@@ -105,20 +105,32 @@ img {
 	list-style: none;
 	max-width: 60%;
 	justify-content: flex-end;
+	margin-bottom: 29px;
 
 }
 
 .search {
-	margin-left: 60px;
+	position: relative;
+	margin: 0;
+	margin-left: 97px;
+	margin-bottom: 29px;
 	
 }
+
+.search img {
+	position: absolute;
+	bottom: 20%; 
+	left: -19%
+
+}
+
 .search input{
 	border: none;
 	background: none;
 }
 .login-link {
-	margin-right: 180px;
-	margin-left: auto;
+	margin-right: 177px;
+	margin-left: 0;
 }
 .profile-link {
 	margin-right: 20px;
@@ -132,7 +144,7 @@ img {
 
 
 .compare {
-	margin-right: 21px;
+	margin-right: 1px;
 }
 .cart {
 	margin-right: 40px;
@@ -144,7 +156,7 @@ img {
 }
 
 .user-navigation img {
-	margin-right: 5px;
+	margin-right: 12px;
 
 }
 
@@ -154,6 +166,7 @@ img {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
+	letter-spacing: 3.6px;
 	font-weight: 800;
 	color: #000000;
 	list-style: none;
@@ -161,11 +174,14 @@ img {
 	width: 100%;
 	padding-left: 60px;
 	padding-right: 60px;
+	margin: 0;
+
 
 }
 
 .catalog-goods {
-	margin-right: 320px;
+	width: 224px;
+	margin-right: 316px;
 
 }
 .catalog-goods a{
@@ -178,6 +194,7 @@ img {
 
 	position: absolute;
 	left: 105%;
+	top: 10%;
 
 	width: 20px;
 	height: 20px;
@@ -185,13 +202,15 @@ img {
 	background-image: url("../img/plus.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	
+	opacity: 0.3;
 }
 
 .delivery {
-	margin-right: 40px;
+	margin-right: 34px;
 }
 .warranty {
-	margin-right:  110px;
+	margin-right:  108px;
 }
 
 .site-navigation a,
@@ -288,7 +307,7 @@ img {
 	margin: 0;
 	margin-bottom: 250px;
 	list-style: none;
-	box-shadow: inset 0 0 0 2px blue;
+	
 }
 
 .services-list {
@@ -301,14 +320,14 @@ img {
 
 
 
-	box-shadow: inset 0 0 0 2px red;
+	/*box-shadow: inset 0 0 0 2px red;*/
 }
 
 .service-item-current {
 	width: 760px;
 	padding: 0;
 	margin: 0;
-	box-shadow: inset 0 0 0 2px red;
+	/*box-shadow: inset 0 0 0 2px red;*/
 }
 
 .service-item {
@@ -316,11 +335,18 @@ img {
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 800;
+	letter-spacing: 3.6px;
 	color: #000000;
 	background-color: #ffffff;
 	list-style: none;
 	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 55px;
+
+
 }
+
 .catalog-item h3 {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
@@ -329,13 +355,21 @@ img {
 	color: #000000;
 	background-color: #ffffff;
 }
+.service-item-current h3{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 40px;
+
+}
+
+
 .service-item-current h3,
 .about-us h2,
-.contacts-box h2,
-.goods h1 {
+.contacts-box h2 {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 47px;
 	line-height: 48px;
+	letter-spacing: 0.16px;
 	font-weight: 800;
 	color: #000000;
 	background-color: #ffffff;
@@ -364,7 +398,16 @@ img {
 
 .wrapper img {
 	padding: 0;
-	padding-left: 100px;
+	padding-left: 90px;
+	height: 100%; /*это правильно? по другому не выравнивается*/
+}
+
+.device-slider {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 115px;
+	z-index: 1;
 }
 
 .device-slogan {
@@ -374,6 +417,11 @@ img {
 	line-height: 56px;
 	font-weight: 800;
 	color: #000000;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 19px;
+	margin-top: 78px;
+	letter-spacing: 0.47px;
 }
 
 .device-feature {
@@ -383,14 +431,40 @@ img {
 	line-height: 30px;
 	font-weight: 300;
 	color: #000000;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 51px;
+	letter-spacing: 0.15px;
 }
 
 .device-slider-description a {
+	display: table;
+	width: 220px;
+	text-align: center;
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
+	letter-spacing: 3.6px;
 	font-weight: 800;
 	color: #000000;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 55px;
+	text-transform: uppercase;
+	background-image: url("../img/Y-l.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 220px 10px;
+}
+
+.device-slider-description a:hover {
+	background-size: 220px 40px;
+
+}
+
+.device-slider-description a:active {
+	opacity: 0.3;
+	
 }
 
 
@@ -439,14 +513,7 @@ img {
 
 }
 
-.product-groups-item img {
-	
-	padding: 0;
-	margin: 0;
-	
 
-	/*box-shadow: inset 0 0 0 2px purple;*/
-}
 
 .product-groups-item p {
 	display: block;
@@ -472,6 +539,14 @@ img {
 	padding: 30px;
 }
 
+.product-groups-item svg:hover {
+	background-color: #f0c52e;
+}
+
+.product-groups-item svg:active > *{
+	opacity: .3;
+}
+
 
 .partners-list {
 	display: flex;
@@ -479,19 +554,26 @@ img {
 	min-width: 1160px;
 	padding: 0;
 	margin: 0;
-	margin-bottom: 100px;
+	margin-bottom: 160px;
 	list-style: none;
 
 
-	box-shadow: inset 0 0 0 2px blue;
+	/*box-shadow: inset 0 0 0 2px blue;*/
 }
 
-.partner a,
 .partner img {
 	padding: 0;
 	margin: 0;
+	filter: grayscale(100%);
+	opacity: 0.2;
 }
 
+.partner img:hover {
+	padding: 0;
+	margin: 0;
+	filter: none;
+	opacity: 1;
+}
 
 
 .partners-list,
@@ -507,15 +589,43 @@ img {
 	justify-content: space-between;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 95px;
+	
 }
+
+
+.contacts-box figure {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 80px;
+
+}
+
 .about-us {
 	width: 460px;
-	margin-right: 140px;
+	margin-right: 135px;
 }
 .contacts-box {
 	width: 560px;
 	
 }
+
+.about-us h2,
+.contacts-box h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 60px;
+
+}
+
+.contacts-box a,
+.contacts-box img{
+	padding: 0;
+	margin: 0;
+
+}
+
+
 .map{
 	margin: 0;
 }
@@ -534,6 +644,9 @@ img {
 	background-color: #ffffff;
 	background-position: top center;
 	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 45px;
 
 }
 .about-us ul {
@@ -544,23 +657,36 @@ img {
 	color: #000000;
 	background-color: #ffffff;
 	list-style: none;
-	margin-bottom: 27px;
+	margin-bottom: 60px;
+	
 	
 }
-.contacts-box figure {
-	margin-bottom: 27px; 
-	
+
+.about-us li {
+	padding: 0;
+	margin: 0;
 }
+
+
+/*.contacts-box figure {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 27px; */
+/*	
+}*/
 .about-us a,
 .write-us a {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
+	letter-spacing: 3.6px;
 	font-weight: 800;
 	color: #000000;
 	background-color: #ffffff;
 	list-style: none;
 	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
 	margin-left: 25px; 
 }
 
@@ -630,6 +756,7 @@ img {
 	background-color: #464646;
 	list-style: none;
 	text-transform: uppercase;
+	letter-spacing: 3.6px;
 
 }
 .footer-navigation-list{
